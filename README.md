@@ -1,6 +1,10 @@
 # Convex optimization
 The material here is from the ETH lecture *Advanced topics in Control*. In 2020 spring, the topic is about large scale convex optimization.
 
+## Heads up
+Large scale in the sense 100k - 1B variables, constraints. Not ideal for robotics application.
+Some solvers: YALMIP, CVX (MATLAB), CVXPY (Python), MOSEK (for smaller medium problem)
+
 Lectures include following topics: ( I also added a not thorough introduction under each topic, need to summarize a better one in the future)
 
 ### Introduction
@@ -25,11 +29,17 @@ One reason we use duality is that we can then turn the optimization into another
 #### Fermat's rule
 $x\in \min f$ $\leftrightarrow$ $0\in\partial f(x)$
 ##### Definition of partial gradient
+#### Composite Minimization 
+In the objective, we have two separable items, which is often the case, for example, regularization. To optimize the composite minimization problem, we can use Fermat's rule and turn to operator splitting methods.
 ### Gradient Descent Methods
 ### Coordinate Descent Methods
 ### Operator Splitting Methods
 ### Alternating Direction Method of Multipliers
 ### Distributed Optimization Methods
+In this section, we mainly focus on the 
+#### global consensus problem
+#### sharing problem
+#### resource allocation problem
 ### Signal Denoising and Regression Models
 ### Classification Models
 ### Applications
