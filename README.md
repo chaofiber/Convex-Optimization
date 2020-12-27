@@ -36,7 +36,6 @@ In the objective, we have two separable items, which is often the case, for exam
 ### Operator Splitting Methods
 ### Alternating Direction Method of Multipliers
 ### Distributed Optimization Methods
-In this section, we mainly focus on the 
 #### global consensus problem
 #### sharing problem
 #### resource allocation problem
