@@ -5,7 +5,7 @@ The material here is from the ETH lecture *Advanced topics in Control*. In 2020 
 Large scale in the sense 100k - 1B variables, constraints. Not ideal for robotics application.
 Some solvers: YALMIP, CVX (MATLAB), CVXPY (Python), MOSEK (for smaller medium problem)
 
-Lectures include following topics: ( I also added a not thorough introduction under each topic, need to summarize a better one in the future)
+Lectures include following topics: ( I also added a non-exhaustive introduction under each topic, need to summarize a better one in the future)
 
 ### Introduction
 ### Convex Sets
